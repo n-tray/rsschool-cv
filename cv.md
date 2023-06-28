@@ -1,6 +1,4 @@
 # NASTASSIA __TRAYANOVICH__
-<image src="https://pbs.twimg.com/media/CeZoAauUYAA32in.jpg:large" alt="picture" width="150">
-
 
 ## CONTACTS
 ### Levkova str. 32, Minsk, Belarus
