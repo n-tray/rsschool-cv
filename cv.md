@@ -1,5 +1,5 @@
 # NASTASSIA __TRAYANOVICH__
-<img src="images/12.jpg" width="150">
+<image src="https://pbs.twimg.com/media/CeZoAauUYAA32in.jpg:large" alt="picture" width="150">
 
 ___
 ## CONTACTS_
