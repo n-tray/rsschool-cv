@@ -1,10 +1,99 @@
 <!DOCTYPE HTML>
-<html lang="en">
-  <head>
-  <title>Start page</title>
-  </head>
-  <body>
-    <h1>Some text</h1>
-    <p> Some text for my page</p>
-  </body>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <title>My CV</title>
+  <link rel="icon" href="./assets/favic.ico">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#сontacts" class="nav-link">Contacts</a></li>
+        <li class="nav-item"><a href="#aducation" class="nav-link">Aducation</a></li>
+        <li class="nav-item"><a href="#job-experience" class="nav-link">Job experience</a></li>
+        <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+        <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+        <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <div>
+      <section class="section-main" id="main">
+        <img class="image" src="./assets/12.jpg" alt="my photo">
+        <h1 class="section-name">Nastassia Trayanovich</h1>
+      </section>
+    </div>
+    <div class="container">
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul class="list">
+          <li><img src="assets/icon1.svg" alt="adres" width="20" height="20"> Minsk, Belarus</li>
+          <li><img src="assets/icon2.svg" alt="adres" width="20" height="20">+375295011482</li>
+          <li><img src="assets/icon3.svg" alt="adres" width="20" height="20">
+            <a href="mailto:trayanovich.nastya@gmail.com" class="contacts-item">trayanovich.nastya@gmail.com</a>
+          </li>
+          <li><img src="assets/icon4.svg" alt="adres" width="20" height="20">
+            <a href="https://github.com/n-tray" class="contacts-item">Github: n-tray</a>
+          </li>
+          <li><img src="assets/icon5.svg" alt="adres" width="20" height="20">
+            <a href="https://discordapp.com/users/1120790067645001748" class="contacts-item">Discord:@n-tray#7729</a>
+          </li>
+        </ul>
+      </section>
+      <section class="section">
+        <h2 class="section-title">Aducation</h2>
+        <p id="aducation">Economist
+          BSATU
+          2010-2014</p>
+      </section>
+      <section class="section">
+        <h2 class="section-title">Job experience</h2>
+        <p id="job-experience">2016-Present
+          Accountant
+          Belarusian Railway
+          working with the banking system, accrual salary</p>
+      </section>
+      <section class="section">
+        <h2 class="section-title">Summary</h2>
+        <p id="summary">I have no experience in IT, but I learning very quickly and like to solve complex problems</p>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+        <code>let arr = new Array(1, 2, 3, 4);
+          console.log(arr);
+        </code>
+      </section>
+      <section class="section" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <ul class="list-projects">
+          <li><a href="https://n-tray.github.io/rsschool-cv/cv" class="contacts-item">My CV</a></li>
+        </ul>
+      </section>
+      <section class="section">
+        <h2 class="section-title">English</h2>
+        <p id="english">B1(intermediate)</p>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div>© 2023
+      <a href="https://github.com/n-tray" class="contacts-item">n-tray</a>
+    </div>
+    <div>
+      <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="logo" height="100"
+          width="200"></a>
+    </div>
+  </footer>
+</body>
+
 </html>
